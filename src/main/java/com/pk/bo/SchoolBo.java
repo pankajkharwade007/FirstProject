@@ -10,6 +10,16 @@ public class SchoolBo {
 	private int marks2;
 	private int marks3;
 	private String result;
+	private int age;
+	
+	
+	
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
 	public int getSrNo() {
 		return srNo;
 	}
